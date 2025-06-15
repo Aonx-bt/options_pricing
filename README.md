@@ -25,17 +25,17 @@ This project explores various computational finance techniques to price and hedg
 - Inputs: current price (S), strike (K), time to expiry (T), risk-free rate (r), volatility (σ), and option type (call/put).
 - Also used to calculate **Greeks** like delta and vega for hedging.
 
-- ### 2. ** Geometric Brownian Motion (GBM)**
+### 2. **Geometric Brownian Motion (GBM)**
 
 Simulates stock price paths assuming continuous compounding, lognormal distribution.
 
 Forms the basis for Monte Carlo simulations and dynamic delta hedging.
-- ### 3. ** 3. Monte Carlo Simulation**
+### 3. **Monte Carlo Simulation**
 
 Simulates thousands of GBM paths to approximate expected payoffs.
 
 Helps estimate the price of options under uncertain and stochastic conditions.
-- ### 4. ** 4. Binomial Tree Models**
+### 4. **Binomial Tree Models**
 
 Discrete-time alternatives to BS model:
 
@@ -44,7 +44,7 @@ Cox-Ross-Rubinstein (CRR): Skewed probabilities, recombining tree.
 Jarrow-Rudd (JR): Equal probabilities, used for academic comparisons.
 
 Converges to BS price with enough steps.
-- ### 5. ** 5. Dynamic Delta Hedging**
+### 5. **Dynamic Delta Hedging**
 
 Tracks and adjusts the portfolio's delta exposure over time to remain neutral.
 
