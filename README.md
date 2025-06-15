@@ -43,7 +43,7 @@ Cox-Ross-Rubinstein (CRR): Skewed probabilities, recombining tree.
 
 Jarrow-Rudd (JR): Equal probabilities, used for academic comparisons.
 
-Converges to BS price with enough steps.
+Converges to Black Scholes price with enough steps.
 ### 5. **Dynamic Delta Hedging**
 
 Tracks and adjusts the portfolio's delta exposure over time to remain neutral.
